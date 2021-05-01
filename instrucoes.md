@@ -56,10 +56,10 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
 	![Test Image 4](https://github.com/Rafaelbo1/Quaest_DataScientistJr/blob/master/image/Variaveis%20aval_gov%20e%20voto1.png)
 	
 	- No mesmo script, para as variáveis sexo e voto1 temos:
-			* Barras com o total de votos por categoria de sexo
-			* Cada barra está dividida em cores que representam a quantidade de votos que cada candidato tem para cada categoria de sexo.
-			* Na tabela, tem-se a percentagem de votos que cada candiato tem para cada categoria. Assim é possível identificar, por exemplo:
-			* A maioria do eleitorado do sexo FEMININO votam no CANDITADO 2 - 54,13%.
+		* Barras com o total de votos por categoria de sexo
+		* Cada barra está dividida em cores que representam a quantidade de votos que cada candidato tem para cada categoria de sexo.
+		* Na tabela, tem-se a percentagem de votos que cada candiato tem para cada categoria. Assim é possível identificar, por exemplo:
+		* A maioria do eleitorado do sexo FEMININO votam no CANDITADO 2 - 54,13%.
 
 	![Test Image 5](https://github.com/Rafaelbo1/Quaest_DataScientistJr/blob/master/image/Variaveis%20aval_gov%20e%20voto1.png)
 
