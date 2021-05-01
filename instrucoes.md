@@ -14,14 +14,18 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
 
  1. Crie uma função em alguma linguagem de programação, preferencialmente em R ou Python,  que automatize a construção de tabelas de contingência. O objetivo é identificar se há uma diferença sociodemográfica na intenção de voto. Em outras palavras, por ex.: As mulheres e os homens estão votando no mesmo candidato ? 
 	
-	- Para esta atividade, disponibilizei um conjunto de bibliotecas/funções naturais de Python que fazem o que foi solicitado - criar uma função que automatize a construção de tabelas de contingência.
-	- A função criada contém em seu início linhas para input das variáveis que o usuário desejar ver na tabela de contigência (uma lista com os nomes das variáveis é disponibilizada). O script pode "rodar" em modo defalut com as variáveis 'sexo' e 'voto1', basta que o usuário pressione enter quando for solicitado preencher a resposta requerida na execução do código tabela.
-
-	- Assim temos uma função que pode contruir uma tabela com pandas crosstab(), pandas groupby com size() e unstack() ou collections.Counter() e zip(). Como descrito no script, esta última foi a que contruiu a tabela, mais rápido e com menos processamento, porém, optei em usar o pandas groupby com size() e unstack() para cumprir o prazo de entrega.
-	
+	- Para esta atividade, disponibilizei um conjunto de bibliotecas/funções naturais de Python que fazem o que foi solicitado -
+	  criar uma função que automatize a construção de tabelas de contingência.
+	- A função criada contém em seu início linhas para input das variáveis que o usuário desejar ver na tabela de contigência
+	  (uma lista com os nomes das variáveis é disponibilizada). O script pode "rodar" em modo defalut com as variáveis 'sexo' e 'voto1',
+	  basta que o usuário pressione enter quando for solicitado preencher a resposta requerida na execução do código tabela.
+	- Assim temos uma função que pode contruir uma tabela com pandas crosstab(), pandas groupby com size() e unstack() ou collections.Counter() e zip().
+	  Como descrito no script, esta última foi a que contruiu a tabela, mais rápido e com menos processamento, porém, optei em usar o pandas groupby com size() e unstack()
+	  para cumprir o prazo de entrega.
 	- O teste da função é feito dentro do próprio script com a base de dados disponiblizada - Basta executar tabela.py e será visto um print da tabela de contigência criada.
 
-![Test Image 4]()
+![Test Image 4](https://github.com/Rafaelbo1/Quaest_DataScientistJr/blob/master/image/Tabela%20de%20contingencia-debug.png)
+
 2. Ainda com essa base de dados, construa dois gráficos. 
 
       2.1) O primeiro gráfico será da variável intenção de voto.
