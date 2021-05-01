@@ -10,19 +10,22 @@ A base de dados foi tratada com os nomes originais com as seguintes variáveis e
  - voto1: intenção de voto do respondente.
 
 A partir da base de dados, foram desenvolvidas as atividades com a descrição do "passo a passo" nos scripts dos códigos de cada demanda. 
-- Para o carregamento da base de dados no formato enviado, foi usada função do pandas read_excel() junto com xlrd na versão 1.2.0 - única adequada à leitura do tipo de arquivo .xlsx
+- Para o carregamento da base de dados no formato enviado (bd_surveyquaest.xlsx), foi usada uma função do pandas read_excel() junto com a biblioteca xlrd --versão 1.2.0 - única adequada à leitura do tipo de arquivo .xlsx
 
  1. Crie uma função em alguma linguagem de programação, preferencialmente em R ou Python,  que automatize a construção de tabelas de contingência. O objetivo é identificar se há uma diferença sociodemográfica na intenção de voto. Em outras palavras, por ex.: As mulheres e os homens estão votando no mesmo candidato ? 
 	
-	- Para esta atividade, disponibilizei um conjunto de bibliotecas/funções naturais de Python que fazem o que foi solicitado -
+	- Para esta atividade, disponibilizei um conjunto de bibliotecas/funções naturais de Python que contribuem para o desenvolvimento do que foi solicitado -
 	  criar uma função que automatize a construção de tabelas de contingência.
-	- A função criada contém em seu início linhas para input das variáveis que o usuário desejar ver na tabela de contigência
-	  (uma lista com os nomes das variáveis é disponibilizada). O script pode "rodar" em modo defalut com as variáveis 'sexo' e 'voto1',
-	  basta que o usuário pressione enter quando for solicitado preencher a resposta requerida na execução do código tabela.
-	- Assim temos uma função que pode contruir uma tabela com pandas crosstab(), pandas groupby com size() e unstack() ou collections.Counter() e zip().
-	  Como descrito no script, esta última foi a que contruiu a tabela, mais rápido e com menos processamento, porém, optei em usar o pandas groupby com size() e unstack()
-	  para cumprir o prazo de entrega.
-	- O teste da função é feito dentro do próprio script com a base de dados disponiblizada - Basta executar tabela.py e será visto um print da tabela de contigência criada.
+	  
+	- A função criada contém, em seu início, linhas para input das variáveis que o usuário desejar ver na tabela de contigência
+	  (uma lista com os nomes das variáveis é apresentada ao executar o script). O script pode se executado em modo defalut com as variáveis 'sexo' e 'voto1',
+	  basta que o usuário pressione enter quando for solicitado preencher a resposta requerida na execução do código.
+	  
+	- Assim, temos uma função onde é possível construir uma tabela com as bibliotecas pandas crosstab(), pandas groupby com size() e unstack() ou
+	  collections.Counter() e zip(). Como descrito no script, esta última foi a que contruiu a tabela, mais rápido e com menos processamento, porém,
+	  optei em usar o pandas groupby com size() e unstack() para cumprir o prazo de entrega (ver o return da função no script).
+	  
+	- O teste da função é feito dentro do próprio script com a base de dados carregada - Basta executar tabela.py e será visto um print da tabela de contigência criada.
 	
 	TABELA DE CONTIGÊNCIA - PRINT
 	
