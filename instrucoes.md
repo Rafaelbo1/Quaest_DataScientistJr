@@ -22,7 +22,7 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
 	  basta que o usuário pressione enter quando for solicitado preencher a resposta requerida na execução do código.
 	  
 	- Assim, temos uma função onde é possível construir uma tabela com as bibliotecas pandas crosstab(), pandas groupby com size() e unstack() ou
-	  collections.Counter() e zip(). Como descrito no script, esta última foi a que contruiu a tabela, mais rápido e com menos processamento, porém,
+	  collections.Counter() e zip(). Como descrito no script, esta última foi a que construiu a tabela mais rápido e com menos processamento, porém,
 	  optei em usar o pandas groupby com size() e unstack() para cumprir o prazo de entrega (ver o return da função no script).
 	  
 	- O teste da função é feito dentro do próprio script com a base de dados carregada - Basta executar tabela.py e será visto um print da tabela de contigência criada.
@@ -30,6 +30,7 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
 	TABELA DE CONTIGÊNCIA - PRINT
 	
 	![Test Image 1](https://github.com/Rafaelbo1/Quaest_DataScientistJr/blob/master/image/Tabela%20de%20contingencia.png)
+
 
 	TABELA DE CONTIGÊNCIA - DEBUG
 	![Test Image 2](https://github.com/Rafaelbo1/Quaest_DataScientistJr/blob/master/image/Tabela%20de%20contingencia-debug.png)
@@ -40,7 +41,7 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
       
  	- O script desta atividade é o plot_1.py
  	
- 	- Basta executar para plotar o gráfico da variável intenção de voto e suas categorias.
+ 	- Basta executar para visualizar o plot do gráfico da variável intenção de voto e suas categorias.
  	
  	- Pra este gráfico foi usada uma função simples da biblioteca pandas e matplotlib.
 
@@ -51,11 +52,11 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
 
 	- O script desta atividade é o plot_2.py
 	
-	- Este script, pelo nível da demanda, foi usada em conjunto com função contingency_tables() do script tabela.py - pelo import: "from tabela import: 				contingency_tables as ct"
+	- Este script foi usado em conjunto com função contingency_tables() do script tabela.py (pelo import: "from tabela import: 				contingency_tables as ct")
 	
 	- Novamente as variáveis desejadas para o cruzamento podem ser selecionadas(lembrando que o default são as variáveis 'sexo' e 'voto1')
 	
-	- Temos, então, as configurações descritas no código para o plot de um gráfico de barras juntamente com uma tabela de contingência complementado a informação
+	- Temos, descritas no código, as configurações para o plot do gráfico de barras juntamente com uma tabela de contingência para melhor visualização da informação
 	
 	- Se as variáveis aval_gov e voto1 forem selecionadas, temos:
 		* Barras com o total de votos por categoria de aval_gov
@@ -67,7 +68,7 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
 	![Test Image 4](https://github.com/Rafaelbo1/Quaest_DataScientistJr/blob/master/image/Variaveis%20aval_gov%20e%20voto1.png)
 	
 	
-	- No mesmo script, para as variáveis sexo e voto1 temos:
+	- No mesmo script, para a seleção das variáveis sexo e voto1 temos:
 		* Barras com o total de votos por categoria de sexo
 		* Cada barra está dividida em cores que representam a quantidade de votos que cada candidato tem para cada categoria de sexo.
 		* Na tabela, tem-se a percentagem de votos que cada candiato tem para cada categoria. Assim é possível identificar, por exemplo:
@@ -77,8 +78,8 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
 	![Test Image 5](https://github.com/Rafaelbo1/Quaest_DataScientistJr/blob/master/image/Variaveis%20sexo%20e%20voto1.png)
 
 
-Obs: Os códigos foram inscritos usando bibliotecas instaladas em um ambiente virtual, como recomendam as melhores práticas.
-     Segue, o requirements.txt. Caso o usuário queira utlizar para instalação de todas as bibliotecas usada, basta executar na linha de comando:
+Obs: Os códigos foram desenvolvidos usando bibliotecas instaladas em um ambiente virtual, como recomendam as melhores práticas.
+     Segue, o requirements.txt. Caso o usuário queira utlizar para instalação de todas as bibliotecas usada. Basta executar na linha de comando:
      pip install -r requirements.txt
 
 
