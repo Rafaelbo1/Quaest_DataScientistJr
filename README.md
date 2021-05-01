@@ -1,6 +1,6 @@
 # Informações do Teste - Quaest, Data Scientist Jr. 
 
-A base de dados foi tratada com os nomes originais com as seguintes variáveis e suas respectivas categorias.
+A base de dados foi tratada com os nomes das variáveis e das categorias originais. As variáveis são:
  - sbjnum: id do respondente
  - sexo: sexo do respondente
  - idade: idade (numérica) do respondente
