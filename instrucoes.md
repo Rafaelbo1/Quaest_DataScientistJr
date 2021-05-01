@@ -21,8 +21,9 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
 	
 	- O teste da função é feito dentro do próprio script com a base de dados disponiblizada - Basta executar tabela.py e será visto um print da tabela de contigência criada.
 
- 2. Ainda com essa base de dados, construa dois gráficos. 
-    2.1. O primeiro gráfico será da variável intenção de voto.
+ 2. Ainda com essa base de dados, construa dois gráficos.
+ 3. 
+ 4. 2.1. O primeiro gráfico será da variável intenção de voto.
  		- O script desta atividade é o plot_1.py
  		- Basta executar para plotar o gráfico da variável intenção de voto e suas categorias.
  		- Pra este gráfico foi usada uma função simples da biblioteca pandas e matplotlib.
