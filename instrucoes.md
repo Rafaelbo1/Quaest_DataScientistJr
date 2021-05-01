@@ -22,18 +22,15 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
 	- O teste da função é feito dentro do próprio script com a base de dados disponiblizada - Basta executar tabela.py e será visto um print da tabela de contigência criada.
 
  2. Ainda com essa base de dados, construa dois gráficos. 
- 2.1 O primeiro gráfico será da variável intenção de voto.
- 	- O script desta atividade é o plot_1.py
- 	- Basta executar para plotar o gráfico da variável intenção de voto e suas categorias.
- 	- Pra este gráfico foi usada uma função simples da biblioteca pandas e matplotlib.
+ 	2.1 O primeiro gráfico será da variável intenção de voto.
+ 		- O script desta atividade é o plot_1.py
+ 		- Basta executar para plotar o gráfico da variável intenção de voto e suas categorias.
+ 		- Pra este gráfico foi usada uma função simples da biblioteca pandas e matplotlib.
 
-
-
-
- 2.1 Já o segundo, plot um gráfico que represente o cruzamento entre as variáveis intenção de voto e avaliação do governo. Quem avalia o governo de forma
+ 	2.1 Já o segundo, plot um gráfico que represente o cruzamento entre as variáveis intenção de voto e avaliação do governo. Quem avalia o governo de forma
            positiva, vota em qual candidato ? E quem avalia de forma negativa ?
 		- O script desta atividade é o plot_2.py
-		- Este script, pelo nível da demanda, foi usada em conjunto com função contingency_tables() do script tabela.py - pelo import: "from tabela import: contingency_tables as ct"
+		- Este script, pelo nível da demanda, foi usada em conjunto com função contingency_tables() do script tabela.py - pelo import: "from tabela import: 				contingency_tables as ct"
 		- Novamente as variáveis desejadas para o cruzamento podem ser selecionadas(lembrando que o default são as variáveis 'sexo' e 'voto1')
 		- Temos, então, as configurações descritas no código para o plot de um gráfico de barras juntamente com uma tabela de contingência complementado a informação
 		- 
