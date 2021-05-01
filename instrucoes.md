@@ -25,6 +25,7 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
 	- O teste da função é feito dentro do próprio script com a base de dados disponiblizada - Basta executar tabela.py e será visto um print da tabela de contigência criada.
 	
 	TABELA DE CONTIGÊNCIA - PRINT
+	
 	![Test Image 1](https://github.com/Rafaelbo1/Quaest_DataScientistJr/blob/master/image/Tabela%20de%20contingencia.png)
 
 	TABELA DE CONTIGÊNCIA - DEBUG
@@ -61,7 +62,7 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
 		* Na tabela, tem-se a percentagem de votos que cada candiato tem para cada categoria. Assim é possível identificar, por exemplo:
 		* A maioria do eleitorado do sexo FEMININO votam no CANDITADO 2 - 54,13%.
 
-	![Test Image 5](https://github.com/Rafaelbo1/Quaest_DataScientistJr/blob/master/image/Variaveis%20aval_gov%20e%20voto1.png)
+	![Test Image 5](https://github.com/Rafaelbo1/Quaest_DataScientistJr/blob/master/image/Variaveis%20sexo%20e%20voto1.png)
 
 
 Obs: Os códigos foram inscritos usando bibliotecas instaladas em um ambiente virtual, como recomendam as melhores práticas.
