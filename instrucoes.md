@@ -26,6 +26,7 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
 
 ![Test Image 1](https://github.com/Rafaelbo1/Quaest_DataScientistJr/blob/master/image/Tabela%20de%20contingencia.png)
 
+## TABELA DE CONTIGÊNCIA - DEBUG
 ![Test Image 2](https://github.com/Rafaelbo1/Quaest_DataScientistJr/blob/master/image/Tabela%20de%20contingencia-debug.png)
 
 2. Ainda com essa base de dados, construa dois gráficos. 
@@ -38,8 +39,8 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
 
 ![Test Image 3](https://github.com/Rafaelbo1/Quaest_DataScientistJr/blob/master/image/Variavel%20voto1.png)
  
- 	2.2) Já o segundo, plot um gráfico que represente o cruzamento entre as variáveis intenção de voto e avaliação do governo. Quem avalia o governo de forma
-           positiva, vota em qual candidato ? E quem avalia de forma negativa ?
+ 2.2) Já o segundo, plot um gráfico que represente o cruzamento entre as variáveis intenção de voto e avaliação do governo. Quem avalia o governo de forma
+ 		positiva, vota em qual candidato ? E quem avalia de forma negativa ?
 
 		- O script desta atividade é o plot_2.py
 		- Este script, pelo nível da demanda, foi usada em conjunto com função contingency_tables() do script tabela.py - pelo import: "from tabela import: 				contingency_tables as ct"
