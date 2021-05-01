@@ -39,7 +39,9 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
       2.1) O primeiro gráfico será da variável intenção de voto.
       
  	- O script desta atividade é o plot_1.py
+ 	
  	- Basta executar para plotar o gráfico da variável intenção de voto e suas categorias.
+ 	
  	- Pra este gráfico foi usada uma função simples da biblioteca pandas e matplotlib.
 
 	![Test Image 3](https://github.com/Rafaelbo1/Quaest_DataScientistJr/blob/master/image/Variavel%20voto1.png)
@@ -48,9 +50,13 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
  	   positiva, vota em qual candidato ? E quem avalia de forma negativa ?
 
 	- O script desta atividade é o plot_2.py
+	
 	- Este script, pelo nível da demanda, foi usada em conjunto com função contingency_tables() do script tabela.py - pelo import: "from tabela import: 				contingency_tables as ct"
+	
 	- Novamente as variáveis desejadas para o cruzamento podem ser selecionadas(lembrando que o default são as variáveis 'sexo' e 'voto1')
+	
 	- Temos, então, as configurações descritas no código para o plot de um gráfico de barras juntamente com uma tabela de contingência complementado a informação
+	
 	- Se as variáveis aval_gov e voto1 forem selecionadas, temos:
 		* Barras com o total de votos por categoria de aval_gov
 		* Cada barra está dividida em cores que representam a quantidade de votos que cada candidato tem para cada categoria de aval_gov.
