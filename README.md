@@ -10,7 +10,7 @@ A base de dados foi tratada com os nomes das variáveis e das categorias origina
  - voto1: intenção de voto do respondente.
 
 A partir da base de dados, foram desenvolvidas as atividades com a descrição do "passo a passo" nos scripts dos códigos de cada demanda. 
-- Para o carregamento da base de dados no formato enviado (bd_surveyquaest.xlsx), foi usada uma função do pandas read_excel() junto com a biblioteca xlrd --versão 1.2.0 - única adequada à leitura do tipo de arquivo .xlsx
+- Para o carregamento da base de dados no formato enviado (bd_surveyquaest.xlsx), foi usada uma função do pandas read_excel() junto com a biblioteca xlrd --versão 1.2.0 - única adequada à leitura do tipo de arquivo .xlsx (poderia converter para .csv, mas optei por seguir com o formato original)
 
  1. Crie uma função em alguma linguagem de programação, preferencialmente em R ou Python,  que automatize a construção de tabelas de contingência. O objetivo é identificar se há uma diferença sociodemográfica na intenção de voto. Em outras palavras, por ex.: As mulheres e os homens estão votando no mesmo candidato ? 
 	
@@ -61,6 +61,9 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
 	- Se as variáveis aval_gov e voto1 forem selecionadas, temos:
 		* Barras com o total de votos por categoria de aval_gov
 		* Cada barra está dividida em cores que representam a quantidade de votos que cada candidato tem para cada categoria de aval_gov.
+		* Foi feito um agrupamento dos candidatos com quantidade de votos muito baixa. Esse dado foi adicionada em uma nova variável chamada de Demais Candidatos 111.
+		* Houve dúvida quanto às categorias Regular Positivo e Regualar Negativo, é possível agrupar em uma única coluna (Regular),
+		  porém como não conheço em detalhe essa informação optei por manter ambas.
 		* Na tabela, temos a percentagem de votos que cada candiato tem para cada categoria. Assim é possível identificar, por exemplo:
 		  A maioria dos que dão uma avaliação BOA para o governo votam no CANDITADO 2 - 67,72%.
 		
@@ -71,6 +74,7 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
 	- No mesmo script, para a seleção das variáveis sexo e voto1 temos:
 		* Barras com o total de votos por categoria de sexo
 		* Cada barra está dividida em cores que representam a quantidade de votos que cada candidato tem para cada categoria de sexo.
+		* Foi feito um agrupamento dos candidatos com quantidade de votos muito baixa. Esse dado foi adicionada em uma nova variável chamada de Demais Candidatos 111.
 		* Na tabela, tem-se a percentagem de votos que cada candiato tem para cada categoria. Assim é possível identificar, por exemplo:
 		* A maioria do eleitorado do sexo FEMININO votam no CANDITADO 2 - 54,13%.
 
