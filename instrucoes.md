@@ -26,7 +26,7 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
 
 
 2. Ainda com essa base de dados, construa dois gráficos. 
-   2.1) O primeiro gráfico será da variável intenção de voto.
+2.1 O primeiro gráfico será da variável intenção de voto.
  	- O script desta atividade é o plot_1.py
  	- Basta executar para plotar o gráfico da variável intenção de voto e suas categorias.
  	- Pra este gráfico foi usada uma função simples da biblioteca pandas e matplotlib.
@@ -34,8 +34,7 @@ A partir da base de dados, foram desenvolvidas as atividades com a descrição d
 
 
 
-
-      2.2) Já o segundo, plot um gráfico que represente o cruzamento entre as variáveis intenção de voto e avaliação do governo. Quem avalia o governo de forma
+2.2 Já o segundo, plot um gráfico que represente o cruzamento entre as variáveis intenção de voto e avaliação do governo. Quem avalia o governo de forma
            positiva, vota em qual candidato ? E quem avalia de forma negativa ?
 		- O script desta atividade é o plot_2.py
 		- Este script, pelo nível da demanda, foi usada em conjunto com função contingency_tables() do script tabela.py - pelo import: "from tabela import: contingency_tables as ct"
